@@ -22,16 +22,16 @@
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
 						<h1>Robotic Modelling and Drone Skin Design final submission</h1>
 						<p>Alexia Irimia<br />
-						University of Staffordshire <a href="https://twitter.com/ajlkn"></a> for <a href="https://html5up.net"></a>.</p>
+						University of Staffordshire <a href="https://twitter.com/ajlkn"></a> <a href="https://html5up.net"></a></p>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#intro" class="active"></a>Concept phase</li>
+							<li><a href="#first">Early development</a></li>
+							<li><a href="#second">Production phase</a></li>
+							<li><a href="#cta"></a>Conclusion and result </li>
 						</ul>
 					</nav>
 
@@ -43,13 +43,19 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Ipsum sed adipiscing</h2>
+											<h2>Concept phase</h2>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										<p>This project will focus on the design and development of a wearable character inspired helmet/mask inspired by a cartoon lion, with a key interactive feature: blinking eyelids. The final artefact main goal will be to capture both the expressive charm of an animated character and the practical requirements of a wearable prop. This project draws inspiration from character costume design used in theme parks and live performances, where visual aesthetics and comfort are crucial.  
+
+The initial concept combines digital design with physical fabrication, relying heavily on Belinda for 3D modelling due to its flexibility and sculpting tools which are perfect for more organic shapes. The main goal was to create a stylized but still realistic representation over cartoon lion face; while also incorporating functional eyelids that could blink using a mechanism that will connect them to a servo motor. 
+
+A range of technologies was considered through the whole development process. 3D scanning was evaluated as a method to create accurate head measurements for scaling the helmet correctly; however, due to time constraints and access limitations this was not implemented. Instead, some approximate measures were taken manually which might have led to minor fit issues. Other technologies considered, like for example motion capture, resin casting, latex and laser cutting were also assessed but ultimately ended up not being used. Each of them was evaluated based on material behaviour interactivity and fabrication suitability. Like for example Motion capture was considered excessive for a project which didn't need real time facial or body tracking, while resin and latex had limitations in terms of comfort and flexibility for a wearable device. 
+
+However, the spy initial plans several challenges emerged, including steep learning curves for 3D modelling softwares, 3D printing delays and finally some mechanical issues with the 3D printed products. And also, elements were not fully finalised, the project still stands as a prototype that explores How animation aesthetics and physical computing work together. 
+
+This report will analyse the entire design process starting from conception to production and testing, and it will critically evaluate the relevance and effectiveness of each technology considered or used.</p>
 										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
+											<li><a href="generic.html" class="button">Concept phase</a></li>
 										</ul>
 									</div>
 									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
@@ -59,66 +65,46 @@
 						<!-- First Section -->
 							<section id="first" class="main special">
 								<header class="major">
-									<h2>Magna veroeros</h2>
+									<h2>Early development</h2>
 								</header>
-								<ul class="features">
-									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
+								<p>The early development phase was where the project began to take shape digitally. This stage was centered on translating the concept sketch ideas for a wearable lion mask with blinking eyelids into a detailed 3d model using blender as the main design tool. Blender was the main choice for this task due to it having more tools suited for sculpting a character head, while traditional CAD programs like fusion 360 struggle when modeling stylized or more emotive facial features and do much better when dealing with more engineered mechanisms.  
+
+Blender’s sculpting and mesh deformation tools allowed for some iterative experimentation with the lion’s face structure. The main goal was to achieve a balance between a more cartoonish and animated shapes of the character and ergonomic constraints of what is basically a wearable prop. The program also allowed for the planning of the eyelid geometry. Allowing for the digital simulation of blinking motion by using key frame-based shape manipulation. These design tests created the groundwork for later mechanical layout of the eye and eyelids blinking features. 
+
+As mentioned before 3D scanning was a technology that was heavily considered to benefit this project, as it would have helped ensure the helmet would fit a real human head allowing for both comfort and accuracy. Also in many industries standard workflows, like for example in costume and animatronic design, use head scans to fit wearable models in real words dimensions. However, due to scheduling conflicts and project timeline it meant that this technology ended up getting scrapped for this project. This resulted in having the helmet’s internal dimensions estimated manually, which introduced the risk of sizing issues had its production been finalized. 
+
+In addition, research into the blinking eye mechanism was being done as well. The main goal was to design and prototype something that was a compact, servo compatible system which would have allowed mechanical blinking.  
+
+Motion capture was one of the technologies that was rejected in the early stages of this project, while it is perfect for dynamic tracking for animation or robotics, its complexity in both setting up and using the software went beyond what the project’s main needs. Because a single expression mechanical action like blinking didn’t seem to warrant real time tracking and therefore making mocap not suitable this project overall. 
+
+Material investigation also took place during tis phase. Resin and latex were considered for both finish and flexibility but ended up being rejected due to performance limitations. Resin was too brittle for the dynamic moving parts of the eye and could end up cracking under stress. And latex, while flexible, lacked structural integrity and posed some long-term durability issues, especially for a wearable prop like this one which would have been exposed to body heat and movement. Also, both materials raised some health and safety concerned for prolonged skin contact. 
+
+This phase created the main design base and defined the final direction this project needed to go. Early development was successful in creating a viable digital model and identifying limitations. It helped set the stage for evaluating how the final artefact might have functioned.</p> 
+								
 								</footer>
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Production phase</h2>
+									<p>The production phase was intended to transition from the detailed digital model into a functional and wearable artefact. However, due to some time limitations, the helmet was never fully fabricated. This section will document the attempted steps toward production, the prep work completed and some issues that lead to some fabrication failures, especially when 3d printing. 
+
+The plan was to fabricate both the helmet and eye mechanism using 3D printing, as this technology was accessible, cost effective, and appropriate for large scale props when split into smaller sections. The model was supposed to be split into multiple parts and optimized in blender as to reduce overhangs, including alignment keys, and help minimize support usage. These decisions were influenced by 3D printing best practices and some case studies in cosplay and prop fabrication.  
+
+Unfortunately, due to some issues including some poor planning and issues with the software, the helmet never reached the print queue. Only the eye mechanism and base, designed s a poof of connect for the blinking feature, were printed. But even this small component experienced some print failures, as the first iteration of the base filed half way through the printing process. It was then sent again for printing and some issues came up, like for example side supports were not anchored to the base (possibly due to design issues when modeling) and then needed to be secured through glueing. While the rest of the eye parts were fine, however this all goes to show how relying on 3d printing on a tighter schedule is not ideal. 
+
+This stage also revealed the consequences of not incorporating 3d scanning earlier. Because without a scanned head base, internal sizing of the helmet was manually estimated, which was a risky approach and could have resulted in an uncomfortable or no functional fit of the helmet ended up getting printed, but also we could clearly see the scaling issues in the eye mechanism as it was way to big for its original purpose. In professional workflows like for example in Disney research       scanned data is the foundation to align facial components with the users anatomy, which helps ensure comfort. 
+
+Also laser cutting was considered briefly for possibly cutting the base panels, but it was scrapped in the end. Because of the design of both the helmet and the components of the eye mechanism would have led to some weird fittings. Laser cutting is better suited for 2D profiles and layered assembly, but for the scope of this project it had limited benefits. 
+
+Again, building up from previous paragraphs, resin and latex were deemed inappropriate candidates for this project. Another note to add on that is that both of these technologies would have required complex mold making setups which would have required a long set up and curing time. 
+
+The production planning also accounted for potential actuation methods. While servo motors were never installed, some space was made in the models for the eye mechanism, to house the small motors. Power and control planning, using an Arduino was contemplated but never implemented. All these decisions were informed by small scale animatronic resources, such as    and some Arduino based blink mechanism from open-source cosplay communities. 
+
+In summary, while the production phase did not deliver a physical helmet, it functioned more as an audit of how feasible the project was. Time management failures and overreliance on a fabrication method and underestimation of mechanical complexity were some key limitations.  </p>
 								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
-									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
+								
 								</footer>
 							</section>
 
